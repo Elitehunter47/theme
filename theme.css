@@ -1,0 +1,258 @@
+1 #rules:hover, #issues:hover, #waitlist-join:hover, #logout:hover, #register:hover, #sign-in:hover, #twitter:hover, #facebook:hover, #showchathistory:hover, #dj-history-button:hover { 
+2     -webkit-animation: glow .5s infinite alternate; 
+3 } 
+4 
+ 
+5 @-webkit-keyframes glow { 
+6     to { 
+7         box-shadow: 0 0 20px orange; 
+8     } 
+9 } 
+10 @-webkit-keyframes glow2 { 
+11     to { 
+12         box-shadow: 0 0 10px orange; 
+13     } 
+14 } 
+15 @-webkit-keyframes glow3 { 
+16     to { 
+17          box-shadow: 0 0 30px 20px rgba(255, 131, 0, 0.15); 
+18     } 
+19 } 
+20 .u-30 .icon-rank-3 { 
+21     background:url("http://i.imgur.com/QIbwBHP.png") !important; 
+22     height:15px; 
+23     width:30px; 
+24 } 
+25 
+ 
+26 .u-2002 .icon-rank-3 { 
+27     background:url("http://i.imgur.com/QIbwBHP.png") !important; 
+28     height:15px; 
+29     width:30px; 
+30 } 
+31 
+ 
+32 .u-1968 .icon-rank-10, .u-6 .icon-rank-10 { 
+33     background:url("http://i.imgur.com/OF5B4ru.gif") !important; 
+34 } 
+35 
+ 
+36 #messages .cm:nth-child(odd).mention { 
+37     background: -webkit-linear-gradient(160deg, rgba(243, 149, 33, 0.25) , rgba(0, 0, 0, 0)) !important; 
+38     background: -o-linear-gradient(160deg, rgba(243, 149, 33, 0.25) , rgba(0, 0, 0, 0)) !important; 
+39     background: -moz-linear-gradient(160deg, rgba(243, 149, 33, 0.25) , rgba(0, 0, 0, 0)) !important; 
+40     background: linear-gradient(160deg, rgba(243, 149, 33, 0.25) , rgba(0, 0, 0, 0)) !important; 
+41 } 
+42 
+ 
+43 .userDialogButtons .button { 
+44     background-color: #0E0E0E; 
+45 } 
+46 .userDialogInfo { 
+47     background:linear-gradient(160deg, rgb(2, 2, 2) , rgba(0, 0, 0, 0.3)); 
+48 } 
+49 
+ 
+50 .userDialogButtons .button:hover { 
+51     background-color: rgb(255, 131, 0); 
+52 } 
+53 
+ 
+54 .vid-hover-btn { 
+55  background : rgba(255, 131, 0, 0.5) 
+56  } 
+57 
+ 
+58 #img { 
+59     background-image:url("http://i.imgur.com/2XhRtOk.jpg") !important; 
+60 } 
+61 div#menu { 
+62     background-color: #020202 !important; 
+63     border-right:2px solid #FF8300 !important; 
+64 } 
+65 
+ 
+66 #progress { 
+67 background-color: #FF8300; 
+68 } 
+69 
+ 
+70 .navbar { 
+71 background: #020202; 
+72 } 
+73 
+ 
+74 .footer { 
+75     border-top: 2px solid #FF8300; 
+76 } 
+77 
+ 
+78 .header { 
+79    border-bottom: 2px solid #FF8300;      
+80 } 
+81 
+ 
+82 button { 
+83     background:#FF8300; 
+84 } 
+85 
+ 
+86 .app-right-selector.selected { 
+87     background-color: #FF8300; 
+88 } 
+89 
+ 
+90 .app-right-selector { 
+91     background-color: #020202; 
+92 } 
+93 
+ 
+94 .uname.rank-2 { 
+95     color: #FFD600 !important; 
+96 } 
+97 
+ 
+98 .uname.rank-3 { 
+99     color: #FFA700 !important; 
+100 } 
+101 
+ 
+102 .uname.rank-4 { 
+103     color: #FF8300 !important; 
+104 } 
+105 
+ 
+106 .uname.rank-5 { 
+107     color: #FF5400 !important; 
+108 } 
+109 
+ 
+110 .uname.rank-6 { 
+111     color: #FF4003 !important; 
+112 } 
+113 
+ 
+114 .uname.rank-10 { 
+115     color: #4FB702 !important; 
+116     text-shadow: 0 0 10px #4FB702; 
+117 } 
+118 
+ 
+119 .icon-rank-10 { 
+120     background: url("http://i.imgur.com/ZYs00z8.png") !important; 
+121 } 
+122 
+ 
+123 div.notification .notif-title { 
+124     background-color: #FF8300 !important; 
+125 } 
+126 
+ 
+127 div.notification .notif-content { 
+128     background: #020202 !important; 
+129 } 
+130 
+ 
+131 #ratingbuttons #wootcontainer { 
+132     background-color: #020202; 
+133 } 
+134 
+ 
+135 #ratingbuttons #grabcontainer { 
+136     background-color: #020202; 
+137 } 
+138 
+ 
+139 #ratingbuttons #mehcontainer { 
+140     background-color: #020202; 
+141 } 
+142 
+ 
+143 .user-2002 { 
+144     background: url("http://i.imgur.com/HD9ANke.png"); 
+145     background-repeat: no-repeat; 
+146     background-position: 7em; 
+147 } 
+148 .user-1971 { 
+149     background: url("http://i.imgur.com/HD9ANke.png"); 
+150     background-repeat: no-repeat; 
+151     background-position: 6.3em; 
+152 } 
+153 
+ 
+154 .active { 
+155     background-color: #FF8300; 
+156 } 
+157 
+ 
+158  .promote-dialog-btn.selected-rank {  
+159      background: #FF8300; 
+160  } 
+161   
+162  #notif-promote .fa-check { 
+163     color: #FF8300; 
+164 } 
+165 
+ 
+166 #btn-mute { 
+167     background-color: #FF8300; 
+168 } 
+169 
+ 
+170 div.menu-tile:hover { 
+171     background-color: rgba(255, 131, 0, 0.5) !important; 
+172 } 
+173 
+ 
+174 #ratingbuttons #btn-woot.active, #ratingbuttons #btn-meh.active { 
+175     background-color: #020202; 
+176 } 
+177 
+ 
+178 #app-right { 
+179     background: #0c0c0c; 
+180 } 
+181 
+ 
+182 #room-title { 
+183     content:url("http://i.imgur.com/GoUUer5.png") !important; 
+184 } 
+185 
+ 
+186 #notif-mute .notif-title { 
+187     background: #FF8300; 
+188 } 
+189 
+ 
+190 .mute-dialog-btn:hover { 
+191     background-color: rgb(255, 131, 0); 
+192 } 
+193 .promote-dialog-btn:hover, #notif-promote:hover #ok-btn:hover { 
+194     background-color: rgb(255, 131, 0); 
+195 } 
+196 .btn-no:hover { 
+197     box-shadow: inset 0 -8px 0 0 rgb(255, 68, 0); 
+198     background-color: rgb(255, 131, 0); 
+199 } 
+200 .btn-yes:hover { 
+201     box-shadow: inset 0 -8px 0 0 rgba(58, 255, 0, 0.63); 
+202     background-color: rgb(255, 131, 0); 
+203 } 
+204 input[type=text] { 
+205     -webkit-animation: glow2 3s infinite alternate; 
+206 } 
+207 
+ 
+208 #player { 
+209    -webkit-animation: glow3 1.5s infinite alternate; 
+210 } 
+211 
+ 
+212 .uname.rank { 
+213     color: rgba(255,255,255,0.8) !important; 
+214     text-shadow: 0 0 10px white;  
+215 } 
+216 .uname.rank-0 { 
+217     color: rgba(255,255,255,0.8) !important; 
+218     text-shadow: 0 0 10px white;  
+219 } 

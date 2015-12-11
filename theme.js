@@ -1,1 +1,1 @@
-$('head').append('<link rel="stylesheet" href="https://github.com/BakaCow/theme/blob/master/theme.css" type="text/css"/>');
+$('head').append('<link rel="stylesheet" href="https://rawgit.com/PixelBreeze/PHT/master/theme.css" type="text/css"/>');

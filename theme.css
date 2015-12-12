@@ -1,253 +1,299 @@
 
-.mention {
- background: linear-gradient(160deg, rgba(75, 243, 33, 0.25) , rgba(0, 0, 0, 0)) !important;
-}
-
+.mention { 
+3  background: linear-gradient(160deg, rgba(75, 243, 33, 0.25) , rgba(0, 0, 0, 0)) !important; 
+4 } 
+5 
  
-#messages .cm:nth-child(odd).mention {
-    background: linear-gradient(160deg, rgba(75, 243, 33, 0.25) , rgba(0, 0, 0, 0)) !important;
-}
-
-.userDialogButtons .button {
-    background-color: #0E0E0E;
-}
-
-.userDialogInfo {
-    background:linear-gradient(160deg, rgb(2, 2, 2) , rgba(0, 0, 0, 0.3));
-}
-
-.userDialogButtons .button:hover {
-    background-color: #7a0099 !important;
-}
-
-.vid-hover-btn {
-    background: rgba(148, 0, 230) !important;
-}
-
-#img {
-    background-image:url("http://i.4cdn.org/w/1449235459858.png") !important;
-}
-div#menu {
-    background-color: #B0E0E6 !important;
-    border-right:2px solid #ff6699; !important;
-}
-
-#progress {
-background-color:  #A52A2A;
-}
-
-.navbar {
-background:url("http://www.f-covers.com/cover/cute-anime-doodles-facebook-cover-timeline-banner-for-fb.jpg")
-}
-
-.footer {
-    border-top: 2px solid    #9932CC;
-}
-
-.header {
-   border-bottom: 2px solid  #ADD8E6;    
-}
-
-button {
-    background: #00b2b3;
-}
-
-#btn-mute {
-    background-color:  #B22222;
-}
-
-.app-right-selector.selected {
-    background-color: #da4dff;
-}
-
-.app-right-selector {
-    background-color: #020202;
-}
-/*default*/
-.uname.rank-0 {
-    
-}
-/*vip*/
-.uname.rank-1 {
-     color: #ff007e !important;   
-}
-/*rdj*/
-.uname.rank-2 {
-    color: #bf4080 !important;
-}
-/*d*/
-.uname.rank-3 {
-    color: #6cb700 !important;
-}
-/*b*/
-.uname.rank-4 {
-    color: #862d59 !important;
-}
-
-/*m*/
-.uname.rank-6 {
-    color: #ff3333 !important;
-}
-/*ch*/
-.uname.rank-7 {
-    color: #ff3333 !important;
-}
-/*h*/
-.uname.rank-8 {
-    color: #80007f !important;
-}
-/*a*/
-.uname.rank-10 {
-    color: #660033  !important;
-}
-
-.icon-rank-10 {
-    background: url("") !important;
-}
-
-div.notification .notif-title {
-    background-color: #36A100;!important;
-}
-
-div.notification .notif-content {
-    background: #020202 !important;
-}
-
-#ratingbuttons #wootcontainer {
-    background-color: #020202;
-}
-
-#ratingbuttons #grabcontainer {
-    background-color: #020202;
-}
-
-#ratingbuttons #mehcontainer {
-    background-color: #020202;
-}
-
-.active {
-    background-color: #ac00e6;
-}
-
- .promote-dialog-btn.selected-rank { 
-     background: #5DC300;
- }
+6   
+7 #messages .cm:nth-child(odd).mention { 
+8     background: linear-gradient(160deg, rgba(75, 243, 33, 0.25) , rgba(0, 0, 0, 0)) !important; 
+9 } 
+10 
  
- #notif-promote .fa-check {
-    color: #993399;
-}
-
-
-div.menu-tile:hover {
-    background-color: rgba(145, 145, 145, 0.5) !important
-}
-
-
-#ratingbuttons #btn-woot.active, #ratingbuttons #btn-meh.active {
-    background-color: #020202;
-}
-
-#app-right {
-    background: #0c0c0c;
-}
-
-#room-title {
-    content:url("http://i.imgur.com/XpqEV64.png") !important;
-}
-
-#notif-mute .notif-title {
-    background: #5DC300;
-}
-
-.mute-dialog-btn:hover {
-    background-color: #5DC300;
-}
-.promote-dialog-btn:hover, #notif-promote:hover #ok-btn:hover {
-    background-color: #5DC300;
-}
-.btn-no:hover {
-    box-shadow: inset 0 -8px 0 0 rgb(255, 68, 0);
-    background-color: #5DC300;
-}
-.btn-yes:hover {
-    box-shadow: inset 0 -8px 0 0 rgba(58, 255, 0, 0.63);
-    background-color: #5DC300;
-}
-
-/*#player {
-   -webkit-animation: glow3 1.5s infinite alternate;
-   -moz-animation: glow3 1.5s infinite alternate;
-}*/
-/*// you meant this right? we didn't do it twice?*/
-#player {
-}
-
-.uname.rank {
-    color: white !important;
-}
-.uname.rank-0 {
-    color: white !important;
-}
-
-input[type=text] {
-    background: #000000;
-}
-
-.media-info>div>div {
-    background: rgba(4, 25, 0, 0.79);
-    font-weight: bold;
-}
-
-.notification .notif-content {
-    background-color: #170F00 !important;
-}
-
-#volumePercent {
-    font-weight: bold;
-    color:white;
-}
-}
-
-#ratingbuttons #grab-playlists {
-    background-color: black;
-}
-
-#active-song .label, #active-song .title {
-    background: rgba(4, 25, 0, 0.79);
-    font-weight: bold;
-}
-
-p.username {
-    background: rgba(4, 25, 0, 0.79);
-    font-weight: bold;
-}
-
-#profile .username {
-    background: rgba(4, 25, 0, 0.79);
-    font-weight: bold;
-}
-
-#level {
-    background: rgba(4, 25, 0, 0.79);
-    font-weight: bold;
-}
-
-#chat {
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-position: 5em;
-}   
-
-.cbp-spmenu-left.cbp-spmenu-open {
-    background: url("http://31.media.tumblr.com/daab822cbbbc60ecb95edb478a14f5b2/tumblr_mnsdq8BU031su31alo1_r1_1280.gif");
-    background-repeat: no-repeat;
-}
-
-div.menu-tile {
-    border-bottom: none !important; 
-}
-
-#time-left {
-    font-weight: bold;
-    color:  #DC143C;
-}
+11 .userDialogButtons .button { 
+12     background-color: #0E0E0E; 
+13 } 
+14 
+ 
+15 .userDialogInfo { 
+16     background:linear-gradient(160deg, rgb(2, 2, 2) , rgba(0, 0, 0, 0.3)); 
+17 } 
+18 
+ 
+19 .userDialogButtons .button:hover { 
+20     background-color: #7a0099 !important; 
+21 } 
+22 
+ 
+23 .vid-hover-btn { 
+24     background: rgba(148, 0, 230) !important; 
+25 } 
+26 
+ 
+27 #img { 
+28     background-image:url("http://i.4cdn.org/w/1449235459858.png") !important; 
+29 } 
+30 div#menu { 
+31     background-color: #B0E0E6 !important; 
+32     border-right:2px solid #ff6699; !important; 
+33 } 
+34 
+ 
+35 #progress { 
+36 background-color:  #A52A2A; 
+37 } 
+38 
+ 
+39 .navbar { 
+40 background:url("http://www.f-covers.com/cover/cute-anime-doodles-facebook-cover-timeline-banner-for-fb.jpg") 
+41 } 
+42 
+ 
+43 .footer { 
+44     border-top: 2px solid    #9932CC; 
+45 } 
+46 
+ 
+47 .header { 
+48    border-bottom: 2px solid  #ADD8E6;     
+49 } 
+50 
+ 
+51 button { 
+52     background: #00b2b3; 
+53 } 
+54 
+ 
+55 #btn-mute { 
+56     background-color:  #B22222; 
+57 } 
+58 
+ 
+59 .app-right-selector.selected { 
+60     background-color: #da4dff; 
+61 } 
+62 
+ 
+63 .app-right-selector { 
+64     background-color: #020202; 
+65 } 
+66 /*default*/ 
+67 .uname.rank-0 { 
+68      
+69 } 
+70 /*vip*/ 
+71 .uname.rank-1 { 
+72      color: #ff007e !important;    
+73 } 
+74 /*rdj*/ 
+75 .uname.rank-2 { 
+76     color: #bf4080 !important; 
+77 } 
+78 /*d*/ 
+79 .uname.rank-3 { 
+80     color: #6cb700 !important; 
+81 } 
+82 /*b*/ 
+83 .uname.rank-4 { 
+84     color: #862d59 !important; 
+85 } 
+86 
+ 
+87 /*m*/ 
+88 .uname.rank-6 { 
+89     color: #ff3333 !important; 
+90 } 
+91 /*ch*/ 
+92 .uname.rank-7 { 
+93     color: #ff3333 !important; 
+94 } 
+95 /*h*/ 
+96 .uname.rank-8 { 
+97     color: #80007f !important; 
+98 } 
+99 /*a*/ 
+100 .uname.rank-10 { 
+101     color: #660033  !important; 
+102 } 
+103 
+ 
+104 .icon-rank-10 { 
+105     background: url("") !important; 
+106 } 
+107 
+ 
+108 div.notification .notif-title { 
+109     background-color: #36A100;!important; 
+110 } 
+111 
+ 
+112 div.notification .notif-content { 
+113     background: #020202 !important; 
+114 } 
+115 
+ 
+116 #ratingbuttons #wootcontainer { 
+117     background-color: #020202; 
+118 } 
+119 
+ 
+120 #ratingbuttons #grabcontainer { 
+121     background-color: #020202; 
+122 } 
+123 
+ 
+124 #ratingbuttons #mehcontainer { 
+125     background-color: #020202; 
+126 } 
+127 
+ 
+128 .active { 
+129     background-color: #ac00e6; 
+130 } 
+131 
+ 
+132  .promote-dialog-btn.selected-rank {  
+133      background: #5DC300; 
+134  } 
+135   
+136  #notif-promote .fa-check { 
+137     color: #993399; 
+138 } 
+139 
+ 
+140 
+ 
+141 div.menu-tile:hover { 
+142     background-color: rgba(145, 145, 145, 0.5) !important 
+143 } 
+144 
+ 
+145 
+ 
+146 #ratingbuttons #btn-woot.active, #ratingbuttons #btn-meh.active { 
+147     background-color: #020202; 
+148 } 
+149 
+ 
+150 #app-right { 
+151     background: #0c0c0c; 
+152 } 
+153 
+ 
+154 #room-title { 
+155     content:url("http://i.imgur.com/XpqEV64.png") !important; 
+156 } 
+157 
+ 
+158 #notif-mute .notif-title { 
+159     background: #5DC300; 
+160 } 
+161 
+ 
+162 .mute-dialog-btn:hover { 
+163     background-color: #5DC300; 
+164 } 
+165 .promote-dialog-btn:hover, #notif-promote:hover #ok-btn:hover { 
+166     background-color: #5DC300; 
+167 } 
+168 .btn-no:hover { 
+169     box-shadow: inset 0 -8px 0 0 rgb(255, 68, 0); 
+170     background-color: #5DC300; 
+171 } 
+172 .btn-yes:hover { 
+173     box-shadow: inset 0 -8px 0 0 rgba(58, 255, 0, 0.63); 
+174     background-color: #5DC300; 
+175 } 
+176 
+ 
+177 /*#player { 
+178    -webkit-animation: glow3 1.5s infinite alternate; 
+179    -moz-animation: glow3 1.5s infinite alternate; 
+180 }*/ 
+181 /*// you meant this right? we didn't do it twice?*/ 
+182 #player { 
+183 } 
+184 
+ 
+185 .uname.rank { 
+186     color: white !important; 
+187 } 
+188 .uname.rank-0 { 
+189     color: white !important; 
+190 } 
+191 
+ 
+192 input[type=text] { 
+193     background: #000000; 
+194 } 
+195 
+ 
+196 .media-info>div>div { 
+197     background: rgba(4, 25, 0, 0.79); 
+198     font-weight: bold; 
+199 } 
+200 
+ 
+201 .notification .notif-content { 
+202     background-color: #170F00 !important; 
+203 } 
+204 
+ 
+205 #volumePercent { 
+206     font-weight: bold; 
+207     color:white; 
+208 } 
+209 } 
+210 
+ 
+211 #ratingbuttons #grab-playlists { 
+212     background-color: black; 
+213 } 
+214 
+ 
+215 #active-song .label, #active-song .title { 
+216     background: rgba(4, 25, 0, 0.79); 
+217     font-weight: bold; 
+218 } 
+219 
+ 
+220 p.username { 
+221     background: rgba(4, 25, 0, 0.79); 
+222     font-weight: bold; 
+223 } 
+224 
+ 
+225 #profile .username { 
+226     background: rgba(4, 25, 0, 0.79); 
+227     font-weight: bold; 
+228 } 
+229 
+ 
+230 #level { 
+231     background: rgba(4, 25, 0, 0.79); 
+232     font-weight: bold; 
+233 } 
+234 
+ 
+235 #chat { 
+236     background-image: url(""); 
+237     background-repeat: no-repeat; 
+238     background-position: 5em; 
+239 }    
+240 
+ 
+241 .cbp-spmenu-left.cbp-spmenu-open { 
+242     background: url("http://31.media.tumblr.com/daab822cbbbc60ecb95edb478a14f5b2/tumblr_mnsdq8BU031su31alo1_r1_1280.gif"); 
+243     background-repeat: no-repeat; 
+244 } 
+245 
+ 
+246 div.menu-tile { 
+247     border-bottom: none !important;  
+248 } 
+249 
+ 
+250 #time-left { 
+251     font-weight: bold; 
+252     color:  #DC143C; 
+253 } 

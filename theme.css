@@ -34,7 +34,7 @@ div#menu {
 
 #progress {
 background-color:  #A52A2A;
-background-image:url(http://cache.umusic.com/_sites/gwenstefani.com/sparkthefire/images/animate/flame.gif")
+background:url("http://cache.umusic.com/_sites/gwenstefani.com/sparkthefire/images/animate/flame.gif");
 }
 
 .navbar {

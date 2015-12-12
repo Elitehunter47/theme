@@ -5,7 +5,7 @@
 
  
 #messages .cm:nth-child(odd).mention {
-    background: linear-gradient(160deg, rgba(75, 243, 33, 0.25) , rgba(0, 0, 0, 0)) !important;
+    background: linear-gradient(160deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)) !important;
 }
 
 .userDialogButtons .button {

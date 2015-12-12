@@ -102,7 +102,7 @@ button {
 }
 
 .icon-rank-10 {
-    background: url("http://i.imgur.com/njfJTaj.png") !important;
+    background: url("") !important;
 }
 
 div.notification .notif-title {
@@ -126,7 +126,7 @@ div.notification .notif-content {
 }
 
 .active {
-    background-color: #5DC300;
+    background-color: #ac00e6;
 }
 
  .promote-dialog-btn.selected-rank { 
@@ -134,7 +134,7 @@ div.notification .notif-content {
  }
  
  #notif-promote .fa-check {
-    color: #5DC300;
+    color: #993399;
 }
 
 
@@ -183,10 +183,10 @@ div.menu-tile:hover {
 }
 
 .uname.rank {
-    color: white !important;
+    color: black !important;
 }
 .uname.rank-0 {
-    color: white !important;
+    color: black !important;
 }
 
 input[type=text] {
@@ -204,7 +204,7 @@ input[type=text] {
 
 #volumePercent {
     font-weight: bold;
-    background: rgba(4, 25, 0, 0.79);
+    color:black;
 }
 }
 

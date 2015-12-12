@@ -28,12 +28,12 @@
     background-image:url("http://i.4cdn.org/w/1449235459858.png") !important;
 }
 div#menu {
-    background-color: #170F00 !important;
-    border-right:2px solid #5DC300; !important;
+    background-color: #B0E0E6 !important;
+    border-right:2px solid #ff6699; !important;
 }
 
 #progress {
-background-color: #5DC300;
+background-color: #A52A2A;
 }
 
 .navbar {
@@ -41,23 +41,23 @@ background:url("http://www.f-covers.com/cover/cute-anime-doodles-facebook-cover-
 }
 
 .footer {
-    border-top: 2px solid #5DC300;
+    border-top: 2px solid #9932CC;
 }
 
 .header {
-   border-bottom: 2px solid #5DC300;    
+   border-bottom: 2px solid #ADD8E6;    
 }
 
 button {
-    background: #133800;
+    background: #00b2b3;
 }
 
 #btn-mute {
-    background-color: #133800;
+    background-color: #B22222;
 }
 
 .app-right-selector.selected {
-    background-color: #5DC300;
+    background-color: #da4dff;
 }
 
 .app-right-selector {
@@ -69,11 +69,11 @@ button {
 }
 /*vip*/
 .uname.rank-1 {
-     color: #00FF50 !important;   
+     color: #ff007e !important;   
 }
 /*rdj*/
 .uname.rank-2 {
-    color: #528c00 !important;
+    color: #bf4080 !important;
 }
 /*d*/
 .uname.rank-3 {
@@ -81,28 +81,28 @@ button {
 }
 /*b*/
 .uname.rank-4 {
-    color: #86e300 !important;
+    color: #862d59 !important;
 }
 
 /*m*/
 .uname.rank-6 {
-    color: #ffba00 !important;
+    color: #ff3333 !important;
 }
 /*ch*/
 .uname.rank-7 {
-    color: #ff9600 !important;
+    color: #ff3333 !important;
 }
 /*h*/
 .uname.rank-8 {
-    color: #a90000 !important;
+    color: #4d0039 !important;
 }
 /*a*/
 .uname.rank-10 {
-    color: #cb0000  !important;
+    color: #660033  !important;
 }
 
 .icon-rank-10 {
-    background: url("http://i.imgur.com/njfJTaj.png") !important;
+    background: url("") !important;
 }
 
 div.notification .notif-title {
@@ -233,7 +233,7 @@ p.username {
 }
 
 #chat {
-    background-image: url("http://i.imgur.com/Uej2ByM.png");
+    background-image: url("");
     background-repeat: no-repeat;
     background-position: 5em;
 }   

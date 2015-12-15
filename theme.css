@@ -101,9 +101,10 @@ button {
 /*a*/
 .uname.rank-10 {
     color: #660033  !important;
-     background: url("http://icons.iconarchive.com/icons/ilicon/the-circus/32/cotton-candy-icon.png") !important;
 }
-
+.icon-rank-10 {
+ background: url("http://icons.iconarchive.com/icons/ilicon/the-circus/32/cotton-candy-icon.png") !important;
+}
 div.notification .notif-title {
     background-color: #36A100;!important;
 }

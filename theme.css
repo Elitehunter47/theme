@@ -251,3 +251,7 @@ div.menu-tile {
     background: rgba(4, 25, 0, 0.79);
     font-weight: bold;
 }
+.notif-title { 
+ background-color: #a32979 !important;
+ }
+ 

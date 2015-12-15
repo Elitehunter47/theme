@@ -21,7 +21,7 @@
 }
 
 .vid-hover-btn {
-    background: rgba(148, 0, 230) !important;
+    background: rgba(218, 77, 255, 0.5) !important;
 }
 
 #img {
@@ -196,7 +196,7 @@ input[type=text] {
 }
 
 .media-info>div>div {
-    background: rgba(4, 25, 0, 0.79);
+    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
 }
 
@@ -205,9 +205,8 @@ input[type=text] {
 }
 
 #volumePercent {
+    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
-    background: rgba(4, 25, 0, 0.79);
-}
 }
 
 #ratingbuttons #grab-playlists {
@@ -215,22 +214,22 @@ input[type=text] {
 }
 
 #active-song .label, #active-song .title {
-    background: rgba(4, 25, 0, 0.79);
+    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
 }
 
 p.username {
-    background: rgba(4, 25, 0, 0.79);
+    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
 }
 
 #profile .username {
-    background: rgba(4, 25, 0, 0.79);
+    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
 }
 
 #level {
-    background: rgba(4, 25, 0, 0.79);
+    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
 }
 
@@ -250,10 +249,25 @@ div.menu-tile {
 }
 
 #time-left {
-    background: rgba(4, 25, 0, 0.79);
+    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
 }
 .notif-title { 
  background-color: #a32979 !important;
- }
+}
  
+#showLeft {
+  background: rgba(163, 41, 121, 0.79);
+}
+
+.uk-progress-bar {
+  background: #da4dff;
+}
+
+.exp-meter {
+ background: #a32979;
+}
+
+#profile-settings {
+ background-color: rgba(163, 41, 121, 0.79);
+}

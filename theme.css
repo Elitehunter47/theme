@@ -389,6 +389,20 @@ div.menu-tile {
   background: rgba(163, 41, 121, 0.89);
 }
 
+#volume-settings {
+ right: 200px
+}
+
+#dj-history-button {
+ right: 380px;
+}
+
+#settings-autojoin {
+ right: 470px;
+}
+
+
+
 /* Test Zone */
 
 #ratingbuttons #grab-playlist.active {

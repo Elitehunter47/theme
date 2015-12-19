@@ -353,7 +353,7 @@ div.menu-tile {
  -moz-border-radius: 5px;
  border: none;
  padding: 5px;
- background: rgba(163, 41, 121, 0.79);
+ background: rgba(163, 41, 121, 0.89);
  font-weight: bold;
 }
 
@@ -363,7 +363,7 @@ div.menu-tile {
  -moz-border-radius: 5px;
  border: none;
  padding: 5px;
- background: rgba(163, 41, 121, 0.79);
+ background: rgba(163, 41, 121, 0.89);
  font-weight: bold;
 }
 
@@ -376,6 +376,8 @@ div.menu-tile {
  -webkit-border-radius: 5px;
  -moz-border-radius: 5px;
  border: none;
+  padding: 5px;
+  background: rgba(163, 41, 121, 0.89);
 }
 
 #level {
@@ -383,6 +385,8 @@ div.menu-tile {
  -webkit-border-radius: 5px;
  -moz-border-radius: 5px;
  border: none;
+  padding: 5px;
+  background: rgba(163, 41, 121, 0.89);
 }
 
 /* Test Zone */

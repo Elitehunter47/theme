@@ -286,6 +286,7 @@ div.menu-tile {
     border: 2px #DC80E1;
     border-style: solid;
     opacity: .3;
+    box-shadow: 0px 0px 30px #DC80E1;
 }
 
 

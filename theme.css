@@ -297,19 +297,19 @@ div.menu-tile {
     -webkit-box-shadow: 0px 0px 30px #DC80E1; 
 }
 
-#btn-woot:active Woot {
+#btn-woot:active Woot.active {
  box-shadow: 0px 0px 30px #4CAF50;
  -moz-box-shadow: 0px 0px 30px #4CAF50;
  -webkit-box-shadow: 0px 0px 30px #4CAF50; 
 }
 
-#Meh:active {
+#btn-meh:active {
   box-shadow: 0px 0px 30px #F44336;
  -moz-box-shadow: 0px 0px 30px #F44336;
  -webkit-box-shadow: 0px 0px 30px #F44336; 
 }
 
-#ratingbuttons button.active {
+#ratingbuttons btn-meh.active {
  box-shadow: 0px 0px 30px #F44336;
  -moz-box-shadow: 0px 0px 30px #F44336;
  -webkit-box-shadow: 0px 0px 30px #F44336; 

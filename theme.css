@@ -45,9 +45,9 @@ background:url("http://i.imgur.com/jHQkE8O.jpg")
 
 .footer {
     border-top: 2px solid #9932CC;
-    -moz-box-shadow: 0px -10px 70px #000000; 
-    -webkit-box-shadow: 0px -10px 70px #000000; 
-    box-shadow: 0px -10px 70px #000000;
+    -moz-box-shadow: -400px -10px 70px #000000; 
+    -webkit-box-shadow: -4000px -10px 70px #000000; 
+    box-shadow: -400px -10px 70px #000000;
 }
 
 .header {

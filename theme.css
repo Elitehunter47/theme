@@ -390,10 +390,9 @@ div.menu-tile {
    text-align: center;
 }
 
-/* #profile-data .username {
- text-align: none;
+#profile-data #level {
+ text-align: center;
 }
-*/
 
 #volume-settings {
  right: 200px

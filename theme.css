@@ -297,7 +297,7 @@ div.menu-tile {
     -webkit-box-shadow: 0px 0px 30px #DC80E1; 
 }
 
-#btn-woot:active {
+button#btn-woot:active {
  box-shadow: 0px 0px 30px #4CAF50;
  -moz-box-shadow: 0px 0px 30px #4CAF50;
  -webkit-box-shadow: 0px 0px 30px #4CAF50; 
@@ -313,10 +313,4 @@ div.menu-tile {
  box-shadow: 0px 0px 30px #F44336;
  -moz-box-shadow: 0px 0px 30px #F44336;
  -webkit-box-shadow: 0px 0px 30px #F44336; 
-}
-
-Woot {
--moz-box-shadow: 0 0 5px #4CAF50;
--webkit-box-shadow: 0 0 5px #4CAF50;
-box-shadow: 0px 0px 5px #4CAF50;
 }

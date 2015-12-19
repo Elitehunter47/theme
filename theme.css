@@ -314,3 +314,9 @@ div.menu-tile {
  -moz-box-shadow: 0px 0px 30px #F44336;
  -webkit-box-shadow: 0px 0px 30px #F44336; 
 }
+
+Woot {
+-moz-box-shadow: 0 0 5px #4CAF50;
+-webkit-box-shadow: 0 0 5px #4CAF50;
+box-shadow: 0px 0px 5px #4CAF50;
+}

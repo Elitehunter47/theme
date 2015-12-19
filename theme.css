@@ -45,6 +45,9 @@ background:url("http://www.f-covers.com/cover/cute-anime-doodles-facebook-cover-
 
 .footer {
     border-top: 2px solid #9932CC;
+    -moz-box-shadow: 0px -7px 30px #000000; 
+    -webkit-box-shadow: 0px -7px 30px #000000; 
+    box-shadow: 0px -7px 30px #000000;
 }
 
 .header {

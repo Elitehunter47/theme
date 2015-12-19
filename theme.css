@@ -40,7 +40,7 @@ box-shadow: 0px 1px 35px #F31C1C;
 }
 
 .navbar {
-background:url("http://www.f-covers.com/cover/cute-anime-doodles-facebook-cover-timeline-banner-for-fb.jpg")
+background:url("http://i.imgur.com/jHQkE8O.jpg")
 }
 
 .footer {
@@ -109,7 +109,7 @@ button {
     color: #660033  !important;
 }
 .icon-rank-10 {
- background: url("http://icons.iconarchive.com/icons/ilicon/the-circus/16/cotton-candy-icon.png") !important;
+ background: url("http://i.imgur.com/maMEu5h.png") !important;
 }
 div.notification .notif-title {
     background-color: #36A100;!important;
@@ -244,7 +244,7 @@ p.username {
 }   
 
 .cbp-spmenu-left.cbp-spmenu-open {
-    background: url("http://31.media.tumblr.com/daab822cbbbc60ecb95edb478a14f5b2/tumblr_mnsdq8BU031su31alo1_r1_1280.gif");
+    background: url("http://i.imgur.com/xwF1L60.gif");
     background-repeat: no-repeat;
 }
 
@@ -298,10 +298,28 @@ div.menu-tile {
 .announcement {
  background: linear-gradient(60deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/mwbUuPS.png') !important;
  border: rgba(243,33,176,0.25);
+ border-style: insert;
 }
 
+#ratingbuttons #btn-woot.active {
+ box-shadow: 0px 0px 30px #4CAF50;
+ -moz-box-shadow: 0px 0px 30px #4CAF50;
+ -webkit-box-shadow: 0px 0px 30px #4CAF50;
+}
 
-/* Test Zone */
+#ratingbuttons #btn-meh.active {
+ box-shadow: 0px 0px 30px #F44336;
+ -moz-box-shadow: 0px 0px 30px #F44336;
+ -webkit-box-shadow: 0px 0px 30px #F44336;
+}
+
+#ratingbuttons #grab-playlist.active {
+ box-shadow: 0px 0px 30px #4CAF50;
+ -moz-box-shadow: 0px 0px 30px #4CAF50;
+ -webkit-box-shadow: 0px 0px 30px #4CAF50;
+}
+
+/* Test Zone 
 button#btn-woot:active {
  box-shadow: 0px 0px 30px #4CAF50;
  -moz-box-shadow: 0px 0px 30px #4CAF50;
@@ -319,3 +337,5 @@ button#btn-woot:active {
  -moz-box-shadow: 0px 0px 30px #F44336;
  -webkit-box-shadow: 0px 0px 30px #F44336; 
 }
+
+*/

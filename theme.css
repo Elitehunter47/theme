@@ -348,7 +348,7 @@ div.menu-tile {
 }
 
 #active-song .label {
- border-radius: 25px
+ border-radius: 25px;
  background: rgba(163, 41, 121, 0.79);
  font-weight: bold;
 }

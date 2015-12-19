@@ -378,6 +378,7 @@ div.menu-tile {
  border: none;
   padding: 1px;
   background: rgba(163, 41, 121, 0.89);
+   text-align: none;
 }
 
 #level {
@@ -386,11 +387,13 @@ div.menu-tile {
  -moz-border-radius: 5px;
  border: none;
   background: rgba(163, 41, 121, 0.89);
+   text-align: none;
 }
 
-#profile-data {
+/* #profile-data .username {
  text-align: none;
 }
+*/
 
 #volume-settings {
  right: 200px

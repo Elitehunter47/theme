@@ -295,10 +295,26 @@ div.menu-tile {
     -webkit-box-shadow: 0px 0px 30px #DC80E1; 
 }
 
+/*
 .announcement {
  background: linear-gradient(60deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/mwbUuPS.png') !important;
  border: rgba(243,33,176,0.25);
  border-style: insert;
+}
+*/
+
+.announcement {
+    background: linear-gradient(60deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/mwbUuPS.png') !important;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Arial Black;
+    color: white;
+    border: rgba(243,33,176,0.25);
+    border-style: inset;
+    min-height: 45px;
+    word-wrap: break-word;
+    padding-right: 30px;
+    background-repeat: space;
 }
 
 #ratingbuttons #btn-woot.active {
@@ -313,14 +329,7 @@ div.menu-tile {
  -webkit-box-shadow: 0px 0px 30px #F44336;
 }
 
-#ratingbuttons #grab-playlist.active {
- box-shadow: 0px 0px 30px #4CAF50;
- -moz-box-shadow: 0px 0px 30px #4CAF50;
- -webkit-box-shadow: 0px 0px 30px #4CAF50;
-}
-
-/* Test Zone 
-button#btn-woot:active {
+#btn-woot:active {
  box-shadow: 0px 0px 30px #4CAF50;
  -moz-box-shadow: 0px 0px 30px #4CAF50;
  -webkit-box-shadow: 0px 0px 30px #4CAF50; 
@@ -332,10 +341,17 @@ button#btn-woot:active {
  -webkit-box-shadow: 0px 0px 30px #F44336; 
 }
 
-#ratingbuttons Meh.active {
- box-shadow: 0px 0px 30px #F44336;
- -moz-box-shadow: 0px 0px 30px #F44336;
- -webkit-box-shadow: 0px 0px 30px #F44336; 
+#btn-grab:active {
+  box-shadow: 0px 0px 30px #2196F3;
+ -moz-box-shadow: 0px 0px 30px #2196F3;
+ -webkit-box-shadow: 0px 0px 30px #2196F3; 
 }
 
-*/
+
+/* Test Zone */
+
+#ratingbuttons #grab-playlist.active {
+ box-shadow: 0px 0px 30px #2196F3;
+ -moz-box-shadow: 0px 0px 30px #2196F3;
+ -webkit-box-shadow: 0px 0px 30px #2196F3;
+}

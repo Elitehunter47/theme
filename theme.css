@@ -218,8 +218,13 @@ input[type=text] {
 }
 
 #active-song .label, #active-song .title {
-    background: rgba(163, 41, 121, 0.79);
-    font-weight: bold;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+ padding: 5px;
+ background: rgba(163, 41, 121, 0.89);
+ font-weight: bold;
 }
 
 p.username {
@@ -228,13 +233,24 @@ p.username {
 }
 
 #profile .username {
-    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
+     border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+  padding: 1px;
+  background: rgba(163, 41, 121, 0.89);
+   text-align: center;
 }
 
 #level {
-    background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
+      border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border: none;
+  background: rgba(163, 41, 121, 0.89);
+   text-align: center;
 }
 
 #chat {
@@ -295,14 +311,6 @@ div.menu-tile {
     -webkit-box-shadow: 0px 0px 30px #DC80E1; 
 }
 
-/*
-.announcement {
- background: linear-gradient(60deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/mwbUuPS.png') !important;
- border: rgba(243,33,176,0.25);
- border-style: insert;
-}
-*/
-
 .announcement {
     background: linear-gradient(60deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/mwbUuPS.png') !important;
     padding: 5px;
@@ -347,38 +355,8 @@ div.menu-tile {
  -webkit-box-shadow: 0px 0px 30px #2196F3; 
 }
 
-#active-song .label {
- border-radius: 5px;
- -webkit-border-radius: 5px;
- -moz-border-radius: 5px;
- border: none;
- padding: 5px;
- background: rgba(163, 41, 121, 0.89);
- font-weight: bold;
-}
-
-#active-song .title {
- border-radius: 5px;
- -webkit-border-radius: 5px;
- -moz-border-radius: 5px;
- border: none;
- padding: 5px;
- background: rgba(163, 41, 121, 0.89);
- font-weight: bold;
-}
-
 #active-song {
  line-height: 20px;
-}
-
-#profile .username {
- border-radius: 5px;
- -webkit-border-radius: 5px;
- -moz-border-radius: 5px;
- border: none;
-  padding: 1px;
-  background: rgba(163, 41, 121, 0.89);
-   text-align: center;
 }
 
 #level {
@@ -409,9 +387,10 @@ div.menu-tile {
 
 
 /* Test Zone */
-
+/*
 #ratingbuttons #grab-playlist.active {
  box-shadow: 0px 0px 30px #2196F3;
  -moz-box-shadow: 0px 0px 30px #2196F3;
  -webkit-box-shadow: 0px 0px 30px #2196F3;
 }
+*/

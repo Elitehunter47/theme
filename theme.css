@@ -434,3 +434,7 @@ div.menu-tile {
 p {
  margin: 7px;
 }
+
+#profile .experience-box {
+ right: -3px;
+}

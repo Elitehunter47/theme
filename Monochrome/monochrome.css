@@ -442,10 +442,19 @@ input[type=password] {
  background: rgba(53,64,76,0.6);
 }
 
-#settings-autojoin button-disabled {
+#settings-autojoin .button-disabled {
  background-color: #5D1616;
 }
 
-#settings-autojoin button-enabled {
+#settings-autojoin .button-enabled {
  background-color: #194819;
 }
+/*
+#settings-autojoin .disabled {
+ background-color: #5D1616;
+}
+
+#settings-autojoin .enabled {
+ background-color: #194819;
+}
+*/

@@ -441,6 +441,10 @@ p {
  right: -3px;
 }
 
-#change-username input[type=password] {
+#change-username {
+ background: rgba(53,64,76,0.6);
+}
+
+input[type=password] {
  background: rgba(53,64,76,0.6);
 }

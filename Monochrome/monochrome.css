@@ -439,7 +439,7 @@ p {
 input[type=password] {
  background: rgba(53,64,76,0.6);
 }
-
+/*
 button-disabled {
  background-color: #5D1616;
 }
@@ -447,7 +447,9 @@ button-disabled {
 button-enabled {
  background-color: #194819;
 }
-/*
+*/
+
+
 #settings-autojoin .disabled {
  background-color: #5D1616;
 }
@@ -455,4 +457,3 @@ button-enabled {
 #settings-autojoin .enabled {
  background-color: #194819;
 }
-*/

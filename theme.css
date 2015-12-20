@@ -277,6 +277,12 @@ div.menu-tile {
 #time-left {
     background: rgba(163, 41, 121, 0.79);
     font-weight: bold;
+     border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+ top: 64px;
+ right: 415px;
 }
 .notif-title { 
  background-color: #a32979 !important;

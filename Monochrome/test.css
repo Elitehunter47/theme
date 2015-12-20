@@ -449,25 +449,10 @@ input[type=password] {
     width: 100%;
 }
 
-
-/* testing zone */
-
-/*
-button-disabled {
+#settings-autojoin.disabled {
  background-color: #5D1616;
 }
 
-button-enabled {
+#settings-autojoin.enabled {
  background-color: #194819;
 }
-*/
-
-
-#settings-autojoin {
- background-color: #5D1616;
-}
-/*
-#settings-autojoin .enabled {
- background-color: #194819;
-}
-*/

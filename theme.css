@@ -159,6 +159,7 @@ div.menu-tile:hover {
 
 #room-title {
     content:url("http://i.imgur.com/eIcYIEd.png") !important;
+    margin-left: 30px;
 }
 
 #notif-mute .notif-title {
@@ -200,8 +201,13 @@ input[type=text] {
 }
 
 .media-info>div>div {
-    background: rgba(163, 41, 121, 0.79);
+    background: rgba(163, 41, 121, 0.85);
     font-weight: bold;
+    border: 0px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 2px;
 }
 
 .notification .notif-content {
@@ -286,6 +292,10 @@ div.menu-tile {
 
 .exp-meter {
  background: #a32979;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+ border: 0px;
 }
 
 #profile-settings {
@@ -296,8 +306,6 @@ div.menu-tile {
 /* NCS Loli Counter */
 #loli-counter {
         position: absolute;
-    left: 0;
-    top: 0;
     margin: 15px;
     padding: 3px; 
     background: rgba(0,0,0,0.6); 
@@ -384,7 +392,17 @@ div.menu-tile {
  right: 470px;
 }
 
+.media-info {
+ margin-left: -23px;
+ margin-top: 2px;
+}
 
+#profile #exp-details {
+ border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+}
 
 /* Test Zone */
 /*

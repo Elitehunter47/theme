@@ -39,19 +39,17 @@ background-color: #A52A2A;
 box-shadow: 0px 1px 35px #F31C1C;
 }
 
-.navbar {
-background:url("http://i.imgur.com/cNPy5Ti.gif")
-}
-
 .footer {
     border-top: 2px solid #2F2F2F;
     -moz-box-shadow: -420px -10px 70px rgba(151,151,151,0.7); 
     -webkit-box-shadow: -420px -10px 70px rgba(151,151,151,0.7); 
     box-shadow: -420px -10px 70px rgba(151,151,151,0.7);
+    background:url("http://i.imgur.com/1IyixL9.gif")
 }
 
 .header {
    border-bottom: 2px solid #2F2F2F;    
+background:url("http://i.imgur.com/cNPy5Ti.gif")
 }
 
 button {

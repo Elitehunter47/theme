@@ -404,6 +404,13 @@ div.menu-tile {
  border-radius: 7px;
 }
 
+#profile #exp-bar {
+ border: 0px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ border-radius: 7px;
+}
+
 /* Test Zone */
 /*
 #ratingbuttons #grab-playlist.active {

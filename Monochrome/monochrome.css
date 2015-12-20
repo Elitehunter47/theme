@@ -389,15 +389,6 @@ div.menu-tile {
  line-height: 20px;
 }
 
-#level {
-  border-radius: 5px;
- -webkit-border-radius: 5px;
- -moz-border-radius: 5px;
- border: none;
-  background: rgba(163, 41, 121, 0.89);
-   text-align: center;
-}
-
 #profile-data #level {
  text-align: center;
 }
@@ -447,4 +438,8 @@ p {
 
 input[type=password] {
  background: rgba(53,64,76,0.6);
+}
+
+#volume-settings #volume {
+ color: cyan;
 }

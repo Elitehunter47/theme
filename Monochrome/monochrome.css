@@ -44,14 +44,14 @@ background:url("http://i.imgur.com/cNPy5Ti.gif")
 }
 
 .footer {
-    border-top: 2px solid #9932CC;
-    -moz-box-shadow: -400px -10px 70px #000000; 
-    -webkit-box-shadow: -4000px -10px 70px #000000; 
-    box-shadow: -400px -10px 70px #000000;
+    border-top: 2px solid #2F2F2F;
+    -moz-box-shadow: -420px -10px 70px rgba(151,151,151,0.7); 
+    -webkit-box-shadow: -420px -10px 70px rgba(151,151,151,0.7); 
+    box-shadow: -420px -10px 70px rgba(151,151,151,0.7);
 }
 
 .header {
-   border-bottom: 2px solid #9932CC;    
+   border-bottom: 2px solid #2F2F2F;    
 }
 
 button {
@@ -63,7 +63,7 @@ button {
 }
 
 .app-right-selector.selected {
-    background-color: #da4dff;
+    background-color: rgba(129, 129, 129, 0.9);
 }
 
 .app-right-selector {
@@ -116,7 +116,7 @@ div.notification .notif-title {
 }
 
 div.notification .notif-content {
-    background: #020202 !important;
+    background: rgba(18, 18, 18, 0.86) !important;
 }
 
 #ratingbuttons #wootcontainer {
@@ -151,6 +151,7 @@ div.menu-tile:hover {
 
 #ratingbuttons #btn-woot.active, #ratingbuttons #btn-meh.active {
     background-color: #020202;
+    box-shadow: 0px 0px 30px 20px rgba(151,151,151,0.7);
 }
 
 #app-right {
@@ -187,6 +188,7 @@ div.menu-tile:hover {
 }*/
 /*// you meant this right? we didn't do it twice?*/
 #player {
+ background: 0px 0px 30px 20px rgba(151,151,151,0.7);
 }
 
 .uname.rank {
@@ -201,7 +203,7 @@ input[type=text] {
 }
 
 .media-info>div>div {
-    background: rgba(163, 41, 121, 0.85);
+    background: rgba(108,108,108,0.9);
     font-weight: bold;
     border: 0px;
     -webkit-border-radius: 7px;
@@ -215,7 +217,7 @@ input[type=text] {
 }
 
 #volumePercent {
- background: rgba(163, 41, 121, 0.79);
+ background: rgba(108,108,108,0.9);
  font-weight: bold;
  border-radius: 5px;
  -webkit-border-radius: 5px;
@@ -236,12 +238,12 @@ input[type=text] {
  -moz-border-radius: 5px;
  border: none;
  padding: 5px;
- background: rgba(163, 41, 121, 0.89);
+ background: rgba(108,108,108,0.9);
  font-weight: bold;
 }
 
 p.username {
- background: rgba(163, 41, 121, 0.85);
+ background: rgba(108,108,108,0.9);
  font-weight: bold;
  margin-right: -2px;
  margin-top: 1px;
@@ -259,7 +261,7 @@ p.username {
  -moz-border-radius: 5px;
  border: none;
   padding: 1px;
-  background: rgba(163, 41, 121, 0.89);
+  background: rgba(108,108,108,0.9);
    text-align: center;
 }
 
@@ -269,7 +271,7 @@ p.username {
  -webkit-border-radius: 5px;
  -moz-border-radius: 5px;
  border: none;
-  background: rgba(163, 41, 121, 0.89);
+  background: rgba(108,108,108,0.9);
    text-align: center;
 }
 
@@ -289,7 +291,7 @@ div.menu-tile {
 }
 
 #time-left {
-    background: rgba(163, 41, 121, 0.79);
+    background: rgba(108,108,108,0.9);
     font-weight: bold;
      border: 0px;
  -webkit-border-radius: 7px;
@@ -299,19 +301,19 @@ div.menu-tile {
  right: 415px;
 }
 .notif-title { 
- background-color: #a32979 !important;
+ background-color: rgba(108,108,108,0.9) !important;
 }
  
 #showLeft {
-  background: rgba(163, 41, 121, 0.79);
+  background: rgba(108,108,108,0.9);
 }
 
 .uk-progress-bar {
-  background: #da4dff;
+  background: #40525F;
 }
 
 .exp-meter {
- background: #a32979;
+ background: rgba(78,78,78,0.84);
  -webkit-border-radius: 7px;
  -moz-border-radius: 7px;
  border-radius: 7px;
@@ -319,7 +321,7 @@ div.menu-tile {
 }
 
 #profile-settings {
- background-color: rgba(163, 41, 121, 0.79);
+ background-color: rgba(108,108,108,0.9);
 }
 
 
@@ -340,12 +342,12 @@ div.menu-tile {
 }
 
 .announcement {
-    background: linear-gradient(60deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/mwbUuPS.png') !important;
+    background: linear-gradient(60deg, rgba(210,210,210,0.51) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/qwLtJVt.png') !important;
     padding: 5px;
     font-size: 17px;
     font-family: Arial Black;
     color: white;
-    border: rgba(243,33,176,0.25);
+    border: rgba(210,210,210,0.51);
     border-style: inset;
     min-height: 45px;
     word-wrap: break-word;
@@ -437,4 +439,8 @@ p {
 
 #profile .experience-box {
  right: -3px;
+}
+
+#change-username input[type=password] {
+ background: rgba(53,64,76,0.6);
 }

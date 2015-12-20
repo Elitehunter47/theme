@@ -1,11 +1,11 @@
 
 .mention {
- background: linear-gradient(160deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)) !important;
+ background: linear-gradient(160deg, rgba(210,210,210,0.51) , rgba(0, 0, 0, 0)) !important;
 }
 
  
 #messages .cm:nth-child(odd).mention {
-    background: linear-gradient(160deg, rgba(243,33,176,0.25) , rgba(0, 0, 0, 0)) !important;
+    background: linear-gradient(160deg, rgba(210,210,210,0.51) , rgba(0, 0, 0, 0)) !important;
 }
 
 .userDialogButtons .button {
@@ -17,7 +17,7 @@
 }
 
 .userDialogButtons .button:hover {
-    background-color: #7a0099 !important;
+    background-color: #565656 !important;
 }
 
 .vid-hover-btn {
@@ -28,8 +28,8 @@
     background-image:url("http://i.imgur.com/I2fzp67.jpg") !important;
 }
 div#menu {
-    background-color: #cc6699 !important;
-    border-right:2px solid #660066; !important;
+    background-color: #929292 !important;
+    border-right:2px solid #616161; !important;
 }
 
 #progress {
@@ -112,7 +112,7 @@ button {
  background: url("http://i.imgur.com/maMEu5h.png") !important;
 }
 div.notification .notif-title {
-    background-color: #36A100;!important;
+    background-color: #959595;!important;
 }
 
 div.notification .notif-content {
@@ -132,15 +132,15 @@ div.notification .notif-content {
 }
 
 .active {
-    background-color: #5DC300;
+    background-color: #C0C0C0;
 }
 
  .promote-dialog-btn.selected-rank { 
-     background: #5DC300;
+     background: #C0C0C0;
  }
  
  #notif-promote .fa-check {
-    color: #5DC300;
+    color: #C0C0C0;
 }
 
 
@@ -164,22 +164,22 @@ div.menu-tile:hover {
 }
 
 #notif-mute .notif-title {
-    background: #5DC300;
+    background: #C0C0C0;
 }
 
 .mute-dialog-btn:hover {
-    background-color: #5DC300;
+    background-color: #C0C0C0;
 }
 .promote-dialog-btn:hover, #notif-promote:hover #ok-btn:hover {
-    background-color: #990098;
+    background-color: #949494;
 }
 .btn-no:hover {
     box-shadow: inset 0 -8px 0 0 rgb(255, 68, 0);
-    background-color: #990098;
+    background-color: #949494;
 }
 .btn-yes:hover {
     box-shadow: inset 0 -8px 0 0 rgba(58, 255, 0, 0.63);
-    background-color: #990098;
+    background-color: #949494;
 }
 
 /*#player {

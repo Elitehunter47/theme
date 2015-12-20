@@ -402,7 +402,8 @@ div.menu-tile {
 }
 
 #settings-autojoin {
- right: 470px;
+ right: 475px;
+ top: 59px;
 }
 
 .media-info {
@@ -438,4 +439,12 @@ p {
 
 input[type=password] {
  background: rgba(53,64,76,0.6);
+}
+
+button-disabled {
+ background-color: #5D1616;
+}
+
+button-enabled {
+ background-color: #194819;
 }

@@ -442,10 +442,10 @@ input[type=password] {
  background: rgba(53,64,76,0.6);
 }
 
-button-disabled {
+#settings-autojoin button-disabled {
  background-color: #5D1616;
 }
 
-button-enabled {
+#settings-autojoin button-enabled {
  background-color: #194819;
 }

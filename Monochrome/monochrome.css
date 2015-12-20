@@ -439,7 +439,3 @@ p {
 input[type=password] {
  background: rgba(53,64,76,0.6);
 }
-
-#volume-settings #volume {
- color: cyan;
-}

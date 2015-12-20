@@ -118,7 +118,9 @@ div.notification .notif-content {
 }
 
 #ratingbuttons #wootcontainer {
-    background-color: #020202;
+ position: relative;
+ bottom: -80px;
+ background-color: #020202;
 }
 
 #ratingbuttons #grabcontainer {
@@ -439,6 +441,17 @@ p {
 input[type=password] {
  background: rgba(53,64,76,0.6);
 }
+
+#ratingbuttons {
+    position: absolute;
+    height: 80px;
+    bottom: -90px;
+    width: 100%;
+}
+
+
+/* testing zone */
+
 /*
 button-disabled {
  background-color: #5D1616;
@@ -450,10 +463,11 @@ button-enabled {
 */
 
 
-#settings-autojoin .disabled {
+#settings-autojoin {
  background-color: #5D1616;
 }
-
+/*
 #settings-autojoin .enabled {
  background-color: #194819;
 }
+*/

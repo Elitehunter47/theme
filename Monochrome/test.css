@@ -344,7 +344,7 @@ div.menu-tile {
 
 .announcement {
     background: linear-gradient(60deg, rgba(210,210,210,0.51) , rgba(0, 0, 0, 0)), url('http://i.imgur.com/qwLtJVt.png') !important;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
     padding: 5px;
     font-size: 17px;
     font-family: Arial Black;

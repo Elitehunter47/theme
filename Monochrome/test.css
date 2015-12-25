@@ -482,7 +482,7 @@ input[type=password] {
     100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }
 
-bg {
+#app-left {
  background: #212121;
 font-family: Androgyne;
 background-image: url('img/s1.png'), url('img/s2.png'), url('img/s3.png');

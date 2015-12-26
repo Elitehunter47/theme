@@ -6,3 +6,5 @@ x=(Math.floor(Math.random()*numimages));
 randomimage=(rndimg[x]);
 document.getElementById("room-title").style.content = "url("+ randomimage +")";
 }
+
+if (!document.getElementById) document.write('<link rel="stylesheet" type="text/css" href="https://rawgit.com/Elitehunter47/theme/master/Monochrome/test.css">');

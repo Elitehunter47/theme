@@ -357,6 +357,8 @@ p.username {
     color: #1B1B1B;
     font-weight: 900;
     text-shadow: 0px 0px 8px white;
+    background-position: bottom;
+    background-position-x: 0px;
 }
 
 div.menu-tile {

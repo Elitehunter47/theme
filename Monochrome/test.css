@@ -351,9 +351,12 @@ p.username {
     background-position: 5em;
 }   
 
-.cbp-spmenu-left.cbp-spmenu-open {
-    background: url("http://i.imgur.com/bErGJLK.png");
+.cbp-spmenu-left {
+    background: url("http://i.imgur.com/8tBgIPm.jpg");
     background-repeat: no-repeat;
+    color: #1B1B1B;
+    font-weight: 900;
+    text-shadow: 0px 0px 8px white;
 }
 
 div.menu-tile {

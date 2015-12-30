@@ -142,48 +142,66 @@ button#logout {
 .app-right-selector {
     background-color: #020202;
 }
-/*default*/
+
+/*
+.uname.rank {
+    color: white !important;
+}
+.uname.rank-0 {
+    color: white !important;
+}
+
+/ default /
 .uname.rank-0 {
 }
     .icon-4513 { background: url("http://i.imgur.com/Wx1mxBn.png")
  } 
-
-/*vip*/
+ 
+/ vip /
 .uname.rank-1 {
      color: #ff007e !important;   
 }
-/*rdj*/
+
+/ rdj /
 .uname.rank-2 {
     color: #bf4080 !important;
 }
-/*d*/
+
+/ d /
 .uname.rank-3 {
     color: #d88db4 !important;
 }
-/*b*/
+
+/ b /
 .uname.rank-4 {
     color: #862d59 !important;
 }
 
-/*m*/
+/ m /
 .uname.rank-6 {
     color: #ff3333 !important;
 }
-/*ch*/
+
+/ ch /
 .uname.rank-7 {
     color: #ff3333 !important;
 }
-/*h*/
+
+/ h /
 .uname.rank-8 {
     color: #ff1ac4 !important;
 }
-/*a*/
+
+/ a /
 .uname.rank-10 {
     color: #660033  !important;
 }
+
 .icon-rank-10 {
  background: url("http://i.imgur.com/maMEu5h.png") !important;
 }
+*/
+
 div.notification .notif-title {
     background-color: #959595;!important;
 }
@@ -284,19 +302,7 @@ div.menu-tile:hover {
 }
 
 #player {
-   -webkit-animation: glow3 1.5s infinite alternate;
-   -moz-animation: glow3 1.5s infinite alternate;
-}
-/*// you meant this right? we didn't do it twice?*/
-#player {
  background: 0px 0px 30px 20px rgba(151,151,151,0.7);
-}
-
-.uname.rank {
-    color: white !important;
-}
-.uname.rank-0 {
-    color: white !important;
 }
 
 input[type=text] {

@@ -224,11 +224,36 @@ div.menu-tile:hover {
 }
 
 
-#ratingbuttons #btn-woot.active, #ratingbuttons #btn-meh.active {
+#ratingbuttons #btn-woot.active {
     background-color: #020202;
-    box-shadow: 0px 0px 30px 20px rgba(151,151,151,0.7);
+    box-shadow: 0px 0px 30px 5px #4CAF50;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
 }
 
+#ratingbuttons #btn-meh.active {
+    background-color: #020202;
+    box-shadow: 0px 0px 30px 5px #F44336;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
+}
+*
+#ratingbuttons #btn-grab.active {
+     background-color: #020202;
+     box-shadow: 0px 0px 30px 5px #2196F3;
+    -webkit-transition: box-shadow 0.1s ease;
+    -moz-transition: box-shadow 0.1s ease;
+    -ms-transition: box-shadow 0.1s ease;
+    -o-transition: box-shadow 0.1s ease;
+    transition: box-shadow 0.1s ease;
+}
+*/
 #app-right {
     background: #0c0c0c;
     box-shadow: 0px 0px 30px 20px rgba(60, 60, 60, 0.7);
@@ -258,10 +283,10 @@ div.menu-tile:hover {
     background-color: #949494;
 }
 
-/*#player {
+#player {
    -webkit-animation: glow3 1.5s infinite alternate;
    -moz-animation: glow3 1.5s infinite alternate;
-}*/
+}
 /*// you meant this right? we didn't do it twice?*/
 #player {
  background: 0px 0px 30px 20px rgba(151,151,151,0.7);
@@ -447,6 +472,8 @@ div.menu-tile {
     padding-right: 30px;
 }
 
+
+/*
 #ratingbuttons #btn-woot.active {
  box-shadow: 0px 0px 30px #4CAF50;
  -moz-box-shadow: 0px 0px 30px #4CAF50;
@@ -476,6 +503,8 @@ div.menu-tile {
  -moz-box-shadow: 0px 0px 30px #2196F3;
  -webkit-box-shadow: 0px 0px 30px #2196F3; 
 }
+*/
+
 
 #active-song {
  line-height: 20px;

@@ -125,6 +125,10 @@ button {
     background: #666;
 }
 
+#logout {
+ margin-right: 13px;
+}
+
 #btn-mute {
     background-color: #666;
 }
@@ -287,13 +291,14 @@ input[type=text] {
 p.username {
  background: rgba(108,108,108,0.9);
  font-weight: bold;
- margin-right: -2px;
+ margin-right: -130px;
  margin-top: 1px;
  border-radius: 5px;
  -webkit-border-radius: 5px;
  -moz-border-radius: 5px;
  border: none;
  padding: 2px;
+ opacity: 0px;
 }
 
 #profile .username {
@@ -451,11 +456,11 @@ div.menu-tile {
 }
 
 #volume-settings {
- right: 200px
+ right: 92px
 }
 
 #dj-history-button {
- right: 380px;
+ right: 275px;
 }
 
 #settings-autojoin {

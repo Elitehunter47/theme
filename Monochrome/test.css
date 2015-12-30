@@ -125,6 +125,12 @@ button {
     background: #666;
 }
 
+button#logout {
+   margin-top: 50%;
+   left: -218%;
+   position: relative;
+}
+
 #btn-mute {
     background-color: #666;
 }
@@ -322,6 +328,7 @@ p.username {
  -moz-border-radius: 5px;
  border: none;
  padding: 2px;
+ opacity: 0;
 }
 
 #profile .username {
@@ -479,7 +486,7 @@ div.menu-tile {
 }
 
 #volume-settings {
- right: 200px
+ right: 30px
 }
 
 #dj-history-button {

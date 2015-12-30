@@ -521,6 +521,12 @@ input[type=password] {
 
 /* TEST ZONE */
 
+/* Selection Text Color */
+::selection {
+ background: #E17844;
+ color:#fff;
+ text-shadow:none
+}
 
 /* Fucking Snowy Animation... */
 #app-left {

@@ -125,12 +125,6 @@ button {
     background: #666;
 }
 
-button#logout {
-   margin-top: 50%;
-   left: -218%;
-   position: relative;
-}
-
 #btn-mute {
     background-color: #666;
 }
@@ -142,48 +136,7 @@ button#logout {
 .app-right-selector {
     background-color: #020202;
 }
-/*default*/
-.uname.rank-0 {
-}
-    .icon-4513 { background: url("http://i.imgur.com/Wx1mxBn.png")
- } 
 
-/*vip*/
-.uname.rank-1 {
-     color: #ff007e !important;   
-}
-/*rdj*/
-.uname.rank-2 {
-    color: #bf4080 !important;
-}
-/*d*/
-.uname.rank-3 {
-    color: #d88db4 !important;
-}
-/*b*/
-.uname.rank-4 {
-    color: #862d59 !important;
-}
-
-/*m*/
-.uname.rank-6 {
-    color: #ff3333 !important;
-}
-/*ch*/
-.uname.rank-7 {
-    color: #ff3333 !important;
-}
-/*h*/
-.uname.rank-8 {
-    color: #ff1ac4 !important;
-}
-/*a*/
-.uname.rank-10 {
-    color: #660033  !important;
-}
-.icon-rank-10 {
- background: url("http://i.imgur.com/maMEu5h.png") !important;
-}
 div.notification .notif-title {
     background-color: #959595;!important;
 }
@@ -284,19 +237,7 @@ div.menu-tile:hover {
 }
 
 #player {
-   -webkit-animation: glow3 1.5s infinite alternate;
-   -moz-animation: glow3 1.5s infinite alternate;
-}
-/*// you meant this right? we didn't do it twice?*/
-#player {
  background: 0px 0px 30px 20px rgba(151,151,151,0.7);
-}
-
-.uname.rank {
-    color: white !important;
-}
-.uname.rank-0 {
-    color: white !important;
 }
 
 input[type=text] {
@@ -511,11 +452,11 @@ div.menu-tile {
 }
 
 #volume-settings {
- right: 30px
+ right: 200px
 }
 
 #dj-history-button {
- right: 212px;
+ right: 380px;
 }
 
 #settings-autojoin {
@@ -574,10 +515,10 @@ input[type=password] {
 }
 
 
+/* TEST ZONE */
 
 
-
-
+/* Fucking Snowy Animation... */
 #app-left {
 background-image: url('http://i.imgur.com/fqc4Jlc.png'), url('http://i.imgur.com/SUjfJyV.png'), url('http://i.imgur.com/3CizlRf.png');
  -webkit-animation: snow 20s linear infinite;
@@ -585,3 +526,53 @@ background-image: url('http://i.imgur.com/fqc4Jlc.png'), url('http://i.imgur.com
  -ms-animation: snow 20s linear infinite;
  animation: snow 20s linear infinite;
 }
+
+/* Rank thing */
+/*
+.uname.rank {
+    color: white !important;
+}
+.uname.rank-0 {
+    color: white !important;
+}
+
+.uname.rank-0 {
+}
+    .icon-4513 { background: url("http://i.imgur.com/Wx1mxBn.png")
+ } 
+
+.uname.rank-1 {
+     color: #ff007e !important;   
+}
+
+.uname.rank-2 {
+    color: #bf4080 !important;
+}
+
+.uname.rank-3 {
+    color: #d88db4 !important;
+}
+
+.uname.rank-4 {
+    color: #862d59 !important;
+}
+
+.uname.rank-6 {
+    color: #ff3333 !important;
+}
+
+.uname.rank-7 {
+    color: #ff3333 !important;
+}
+
+.uname.rank-8 {
+    color: #ff1ac4 !important;
+}
+
+.uname.rank-10 {
+    color: #660033  !important;
+}
+.icon-rank-10 {
+ background: url("http://i.imgur.com/maMEu5h.png") !important;
+}
+*/

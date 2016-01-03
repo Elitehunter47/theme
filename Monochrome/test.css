@@ -370,6 +370,15 @@ div.menu-tile {
   background: rgba(108,108,108,0.9);
 }
 
+.uk-link, a {
+ color: #168E79;
+}
+
+.uk-link:hover, a:hover {
+ color: #117766;
+ text-shadow: 0px 0px 7px #FFFFFF;
+}
+
 .uk-progress-bar {
   background: #40525F;
 }

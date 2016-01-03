@@ -379,6 +379,10 @@ div.menu-tile {
  text-shadow: 0px 0px 7px #FFFFFF;
 }
 
+#chat .msg a, #chat .log a{
+    color: #168E79;
+}
+
 .uk-progress-bar {
   background: #40525F;
 }

@@ -609,3 +609,104 @@ input[type=password] {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(193, 193, 193, 0.83);
 }
+
+
+
+
+
+
+/* CSS Loading Icon */
+
+.loading {
+    font-family:                'Open Sans',sans-serif;
+    font-weight:                400;
+    font-size:                  30px;
+}
+
+.loading .text {
+    width: 135px;
+    height: 25px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.loading .issues-loading {
+    font-size: 15px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding-right: 20px;
+    height: 55px;
+    width: 850px;
+}
+
+.loading .issues-loading p {
+    float: left;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.loading-anim {
+	width: 200px;
+	height: 200px;
+	background: #8EC1B0;
+	display:block;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	animation: 1.15s loading-spin infinite;
+		-o-animation: 1.15s loading-spin infinite;
+		-ms-animation: 1.15s loading-spin infinite;
+		-webkit-animation: 1.15s loading-spin infinite;
+		-moz-animation: 1.15s loading-spin infinite;
+}
+.loading-anim::before, .loading-anim::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	animation: 0.58s infinite alternate linear
+}
+.loading-anim::before {
+	background: #C39ED1;
+		-o-animation: 0.58s infinite alternate linear
+}
+.loading-anim::before {
+	background: #C39ED1;
+		-ms-animation: 0.58s infinite alternate linear
+}
+.loading-anim::before {
+	background: #C39ED1;
+		-webkit-animation: 0.58s infinite alternate linear
+}
+.loading-anim::before {
+	background: #C39ED1;
+		-moz-animation: 0.58s infinite alternate linear
+}
+.loading-anim::before {
+	background: #C39ED1;
+	animation-name: loading-blur1;
+		-o-animation-name: loading-blur1;
+		-ms-animation-name: loading-blur1;
+		-webkit-animation-name: loading-blur1;
+		-moz-animation-name: loading-blur1;
+}
+.loading-anim::after {
+	background: #0a0a0a;
+	animation-name: loading-blur2;
+		-o-animation-name: loading-blur2;
+		-ms-animation-name: loading-blur2;
+		-webkit-animation-name: loading-blur2;
+		-moz-animation-name: loading-blur2;
+}

@@ -655,7 +655,7 @@ input[type=password] {
 .loading-anim {
 	width: 200px;
 	height: 200px;
-	background: #8EC1B0;
+	background: #609B87;
 	display:block;
 	position: absolute;
     top:0;
@@ -679,23 +679,23 @@ input[type=password] {
 	animation: 0.58s infinite alternate linear
 }
 .loading-anim::before {
-	background: #C39ED1;
+	background: #A162B7;
 		-o-animation: 0.58s infinite alternate linear
 }
 .loading-anim::before {
-	background: #C39ED1;
+	background: #A162B7;
 		-ms-animation: 0.58s infinite alternate linear
 }
 .loading-anim::before {
-	background: #C39ED1;
+	background: #A162B7;
 		-webkit-animation: 0.58s infinite alternate linear
 }
 .loading-anim::before {
-	background: #C39ED1;
+	background: #A162B7;
 		-moz-animation: 0.58s infinite alternate linear
 }
 .loading-anim::before {
-	background: #C39ED1;
+	background: #A162B7;
 	animation-name: loading-blur1;
 		-o-animation-name: loading-blur1;
 		-ms-animation-name: loading-blur1;

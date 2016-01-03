@@ -588,10 +588,24 @@ input[type=password] {
 }
 .weather.snow:before, .weather.snow:after {
     background-image: url(http://i.imgur.com/88JVZTb.png);
-    -webkit-animation-duration: 16s;
-    animation-duration: 16s;
+    -webkit-animation-duration: 26s;
+    animation-duration: 26s;
 }
 .weather.snow:after {
-    -webkit-animation-duration: 14.5s;
-    animation-duration: 24.5s;
+    -webkit-animation-duration: 34.5s;
+    animation-duration: 34.5s;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(100, 100, 100, 0.76);
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(193, 193, 193, 0.83);
 }

@@ -153,7 +153,7 @@ div.menu-tile:hover {
     -ms-transition: box-shadow 0.1s ease;
     -o-transition: box-shadow 0.1s ease;
     transition: box-shadow 0.1s ease;
-    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #ratingbuttons #btn-grab.active {

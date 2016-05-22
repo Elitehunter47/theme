@@ -25,7 +25,7 @@
 }
 
 #img {
-    background-image:url("http://i.4cdn.org/w/1449235459858.png") !important;
+    background-image:url("http://41.media.tumblr.com/aa54c171b3371bfd5cfaf10e4e7a8df7/tumblr_nhtpa9bFQr1u6urb3o1_500.png") !important;
 }
 div#menu {
     background-color: #cc6699 !important;
@@ -437,4 +437,22 @@ p {
 
 #profile .experience-box {
  right: -3px;
+}
+
+::selection {
+ background: rgba(205,104,232,0.58);
+}
+
+/* Custom Cursor */
+
+body, #profile, #exp-details, button:disabled, {
+    cursor: url('http://vignette4.wikia.nocookie.net/love-live/images/a/ae/Ragnarok6354_-_General_Cursor_Contest_Entry.png'), auto !important;
+}
+
+button, i, #profile-settings, #showLeft {
+    cursor: url('http://vignette4.wikia.nocookie.net/love-live/images/d/da/Ragnarok6354_-_Link_Cursor_Contest_Entry.png'), auto !important;
+}
+
+input[type=text]:hover, input[type=newusername], input[type=password] {
+    cursor: url('http://vignette4.wikia.nocookie.net/love-live/images/f/fd/Text_Cursor.png'), text !important;
 }
